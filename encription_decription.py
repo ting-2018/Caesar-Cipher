@@ -77,6 +77,6 @@ retrieved_cipher_text = retrieved_cipher_text.split()
 print(retrieved_cipher_text)
 decrept_recieve_text = ''
 for i in retrieved_cipher_text:
-    decrept_recieve_text = decrept_recieve_text + decription(i.lower())+ ' '
+    decrept_recieve_text = decrept_recieve_text + decription(i.lower()) + ' '
 
 print(decrept_recieve_text)
